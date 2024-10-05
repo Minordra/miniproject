@@ -1,0 +1,7 @@
+/* เพิ่ม CSS เพื่อทำให้รูปภาพมีขนาดเท่ากัน */
+.card-img-top {
+    width: 100%;
+    height: 350px; /* กำหนดความสูงของรูปภาพ */
+    object-fit: cover; /* ทำให้ภาพอยู่ในกรอบโดยไม่ผิดสัดส่วน */
+    background-color: aquamarine;
+}
